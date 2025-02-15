@@ -1,0 +1,25 @@
+.heroContainer{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top:1%;
+}
+
+.heroCard {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.textOverlay {
+    position: absolute;
+    top: 10px;  /* Moves text to the top */
+    left: 10px; /* Moves text to the left */
+    color: rgb(20, 20, 20);
+    /* background: rgba(0, 0, 0, 0.6); Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    max-width: 80%;
+}

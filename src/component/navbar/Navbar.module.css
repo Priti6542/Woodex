@@ -1,0 +1,28 @@
+.navbar {
+  background-color: white !important;
+  box-shadow: none !important;
+}
+
+/* Left Section */
+.leftSection {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+/* Center Heading */
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #100f0f;
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Right Section */
+.rightSection {
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icons */
+}
